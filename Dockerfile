@@ -1,1 +1,1 @@
-FROM ghcr.io/visualon/drone-cache@sha256:b04df7fbe6bfe0b7b034314ebcfcc2adc35a65eb163395450661a4aa38409ba5
+FROM kriese/test@sha256:bd60191cbe65a47b98388bc37130e077aea5c6382719d37b258055c9fef45204
