@@ -1,1 +1,1 @@
-FROM kriese/test@sha256:bd60191cbe65a47b98388bc37130e077aea5c6382719d37b258055c9fef45204
+FROM kriese/test@sha256:b4b67b24d465573c4b3143a574aacacf80f7af7c0f513dbbe9dcba148fab650d
