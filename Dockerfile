@@ -1,3 +1,3 @@
 FROM kriese/test@sha256:bd60191cbe65a47b98388bc37130e077aea5c6382719d37b258055c9fef45204
 
-FROM mcr.microsoft.com/windows:2004
+FROM mcr.microsoft.com/windows:2004@sha256:fa5be68120c2edca9d8b40e64db142ed2e7e44a9065eddfcf21c56c9a6d7030b
