@@ -2,12 +2,10 @@ name: test
 
 on:
   push:
-  pull_request:
 
 jobs:
 
-  build:
-
+  multi:
     runs-on: ${{ matrix.os }}
     
     strategy:
@@ -19,3 +17,21 @@ jobs:
       
     - name: Build image
       run: docker build .
+
+  linux:
+    runs-on: ubuntu-lates
+
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: Build image
+      run: docker build -f Dockerfile.linux .
+
+  windows:
+    runs-on: ubuntu-lates
+
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: Build image
+      run: docker build -f Dockerfile.windows .
