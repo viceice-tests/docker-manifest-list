@@ -19,7 +19,7 @@ jobs:
       run: docker build .
 
   linux:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -28,7 +28,7 @@ jobs:
       run: docker build -f Dockerfile.linux .
 
   windows:
-    runs-on: ubuntu-lates
+    runs-on: windows-2019
 
     steps:
     - uses: actions/checkout@v2
