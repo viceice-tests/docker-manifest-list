@@ -1,2 +1,2 @@
-FROM ghcr.io/visualon/baget@sha256:897a5f18860390005b4a4ae2609f823fbb1a7ee29dd1e9f0fd6a42217ebc8a1f
+FROM ghcr.io/visualon/baget@sha256:42410f9636554eab48ee338f8a81c23c244b7c6f15b1c6c3b69703e0af486944
 
