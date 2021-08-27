@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: Build image
-      run: docker build .
+      run: echo docker build .
 
   linux:
     runs-on: ubuntu-latest
